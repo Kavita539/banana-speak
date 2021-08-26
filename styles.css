@@ -1,6 +1,6 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700&display=swap"); */
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Open+Sans:wght@300;400;600&family=Satisfy&display=swap');
 
 :root {
     --primary-color: #f2c94c;
@@ -16,11 +16,27 @@
     color: #333333;
   }
   
-  nav {
-    text-align: center;
+  /* nav { */
+    /* text-align: center; */
+    /* background-color: var(--primary-color); */
+    /* padding: 0.5rem; */
+  /* } */
+
+  nav{
     background-color: var(--primary-color);
-    padding: 0.5rem;
-  }
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 0rem 0rem 2rem 2rem;
+    font-weight: bolder;
+}
+.brand{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+
   
   /* header */
   header {
@@ -65,8 +81,6 @@
   #output {
     border: 1px solid black;
     height: 15vh;
-    /* min-height: 10vh;
-    max-height: 20vh; */
     width: 100%;
     overflow: scroll;
   }
